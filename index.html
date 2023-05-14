@@ -73,16 +73,16 @@
         <div class="w-full self-center px-4 lg:w-1/2">
             <h1 class="text-base font-semibold text-primary md:text-xl">Hallo semua 🙋‍♂️, <span class="block font-bold text-dark text-4xl lg:text-5xl mt-1 dark:text-white">Saya Narza</span> </h1>
             <h2 class="text-medium text-secondary text-lg lg:text-2xl mb-5 mt-2">Mahasiswa & <span class="text-dark dark:text-white">Content creator</span></h2>
-            <p class="font-medium text-secondary mb-10 leading relaxed"> Hidup itu mudah dan menyenangkan bukan? <span class="text-dark font-bold dark:text-white">Bukan !</span> </p>
+            <p class="font-medium text-secondary mb-10 leading relaxed"> Belajar Web programming itu mudah bukan kawan? <span class="text-dark font-bold dark:text-white">Bukan !</span> </p>
 
             <a href="#contact" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-70 transition duration-300 ease-in-out">Hubungi saya</a>
         </div>
         <div class="w-full self-end px-4 lg:w-1/2">
             <div class="relative mt-10 lg:mt-9 lg:right-0">
                 <img src="public/dist/img/NarzaF.png" alt="Narza" class="relative z-10 max-w-full mx-auto">
-                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-125 lg:scale-150">
-                    <svg width="500" height="500" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                        <path fill="#14b8a6" d="M38.5,9.5C38.5,31.4,19.3,62.7,-3,62.7C-25.2,62.7,-50.5,31.4,-50.5,9.5C-50.5,-12.3,-25.2,-24.6,-3,-24.6C19.3,-24.6,38.5,-12.3,38.5,9.5Z" transform="translate(100 100) scale(1.1)" />
+                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-125">
+                    <svg width="400" height="500" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#14b8a6" d="M68.8,-24C75.5,-1.6,58,27,33.8,43.9C9.7,60.8,-21,65.9,-41.7,52.1C-62.4,38.3,-73.2,5.5,-64.5,-19.4C-55.9,-44.4,-28,-61.5,1.5,-62C31,-62.5,62,-46.4,68.8,-24Z" transform="translate(100 100) scale(1.2)" />
                       </svg>
                 </span>
             </div>
@@ -169,7 +169,7 @@
                 <img src="public/dist/img/cp1.jpg" alt="" width="w-full">
             </div>
             <a href="https://muhamadnarza.github.io/company-profile/"><h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Company Profile</h3></a>
-            <p class="font-medium text-base text-secondary leading-relaxed">Berikut adalah website company profile yang pertama kali saya buat saat kenal coding / programing dan tidak memiliki ke responsive an di program nya</p>
+            <p class="font-medium text-base text-secondary leading-relaxed">Berikut adalah website company profile yang pertama kali saya buat saat kenal coding / programming dan tidak memiliki ke responsive an di program nya</p>
         </div>
         <div class="mb-12 p-4 md:w-1/2">
             <div class="rounded-md shadow-md overflow-hidden">
@@ -205,27 +205,31 @@
                 <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
                 <h2 class="font-bold text-dark mb-4 text-3xl sm:text-4xl lg:text-5xl dark:text-white">Hubungi Saya</h2>
                 <p class="font-medium text-secondary dark:text-slate-300 text-md md:text-lg leading-relaxed">Kini anda dapat terhubung dengan saya lebih mudah dan cepat, silahkan isi form yang telah saya sediakan.</p>
-                <p class="font-bold text-dark mt-3 text-md md:text-lg leading-relaxed dark:text-white">*Maintenance, coming soon derr...*</p>
+                <!-- <p class="font-bold text-dark mt-3 text-md md:text-lg leading-relaxed dark:text-white">*Maintenance, coming soon derr...*</p> -->
             </div>
         </div>
         <form action="#">
-            <div class="w-full lg:w-2/3 lg:mx-auto">
-                <div class="w-full px-4 mb-8">
+            <div class="input-group w-full lg:w-2/3 lg:mx-auto">
+                <div class="input-group w-full px-4 mb-8">
                 <label for="nama" class="text-base font-bold text-primary uppercase">nama</label>
-                <input type="text" id="nama" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-10">
+                <input type="text" id="nama" name="nama" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-10" >
                 </div>
-                <div class="w-full px-4 mb-8">
+
+                <div class="input-group w-full px-4 mb-8">
                 <label for="email" class="text-base font-bold text-primary uppercase">email</label>
-                <input type="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-10">
+                <input type="email" id="email" name="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-10" >
                 </div>
-                <div class="w-full px-4 mb-8">
+
+                <div class="input-group w-full px-4 mb-8">
                 <label for="pesan" class="text-base font-bold text-primary uppercase">pesan</label>
-                <textarea type="pesan" id="pesan" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-35"></textarea>
+                <textarea type="pesan" id="pesan" name="pesan" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-35" ></textarea>
                 </div>
-                <div class="w-full px-4 mb-8">
-                <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim
+
+                <div class="input-group w-full px-4 mb-8 form-group">
+                <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500" onclick="goWhatsapp()"  type="kirim" name="kirim" value="kirim">Kirim
                 </button>
                 </div>
+
             </div>
         </form>
     </div>
@@ -237,10 +241,10 @@
     <div class="container">
         <div class="flex flex-wrap">
             <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
-                <h2 class="font-bold text-4xl text-white mb-5">WPU</h2>
+                <h2 class="font-bold text-4xl text-white mb-5">WPN</h2>
                 <h3 class="font-bold text-2xl mb-2">Hubungi saya</h3>
                 <p class="leading-relaxed">mhmmdnrza@gmail.com</p>
-                <p class="leading-relaxed">Pulo-puter, Ds.Srimahi, Kec.Tambun Utara</p>
+                <p class="leading-relaxed">Pulo Puter, Ds.Srimahi, Kec.Tambun Utara</p>
                 <p class="leading-relaxed">Kab.Bekasi</p>
             </div>
             <div class="w-full px-4 mb-12 md:w-1/3">
@@ -324,8 +328,10 @@
 
 <!-- back to top start -->
 <a href="#home" class="fixed bottom-4 right-4 z-[9999] hidden h-14 w-14 items-center justify-center rounded-full bg-primary p-4 hover:animate-pulse" id="top">
-    <span class="mt-2 block h-5 w-5 rotate-45 border-t-2 border-l-2"></span>
+    <span class="mt-2 block h-5 w-5 rotate-45 border-t-2 border-l-2">
+    </span>
 </a>
+
 <!-- back to top end -->
 
 <!-- script js start -->
